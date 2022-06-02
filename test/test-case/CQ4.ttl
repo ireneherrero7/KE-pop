@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> .
+@prefix td: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/> .
+@prefix tc: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/> .
+
+tc:CQ4.ttl a owlunit:CompetencyQuestionVerification ;
+	owlunit:hasCompetencyQuestion "What is the title of a Song?" ;
+	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?Title WHERE{ ?song pm:hasOriginalTitle ?Title };
+	owlunit:hasInputData td:TD4.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"Title\" ] } ,  \"results\": {  \"bindings\": [ {  \"Title\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/Photograph\" } } ] } }" ;
+	owlunit:testsOntology pm: .

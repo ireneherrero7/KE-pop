@@ -1,0 +1,4 @@
+@prefix pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> .
+@prefix td: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/> .
+
+td:photograph pm:hasOriginalTitle td:Photograph .
