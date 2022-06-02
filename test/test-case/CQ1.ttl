@@ -5,7 +5,7 @@
 
 tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
 	owlunit:hasCompetencyQuestion "Who is the Artist of a Song?" ;
-	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?author WHERE{ ?song pm:hasAuthor ?author }" ;
+	owlunit:hasSPARQLUnitTest "@prefix pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT DISTINCT ?author WHERE{ ?song pm:hasAuthor ?author }" ;
 	owlunit:hasInputData td:TD1.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"author\" ] } ,  \"results\": {  \"bindings\": [ {  \"author\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/jorar00/Pop-Music-KE22/main/test/competency-question/toy-dataset/Ed-Sheeran\" } } ] } }" ;
