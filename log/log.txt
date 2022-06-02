@@ -11,3 +11,4 @@
  INFO 2022-06-02 18:29:46,330 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl
  INFO 2022-06-02 18:30:17,655 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl
  INFO 2022-06-02 18:31:36,999 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl
+ INFO 2022-06-02 18:33:03,747 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl

@@ -1,0 +1,12 @@
+@prefix owlunit: <https://w3id.org/OWLunit/ontology/> .
+@prefix pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> .
+@prefix td: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/> .
+@prefix tc: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/> .
+
+tc:CQ2.ttl a owlunit:CompetencyQuestionVerification ;
+	owlunit:hasCompetencyQuestion "Which are the lyrics of a Song" ;
+	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT DISTINCT ?Artist WHERE{ ?song pm:hasAuthor ?Artist }" ;
+	owlunit:hasInputData td:TD2.ttl ;
+	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"Lyric\" ] } ,  \"results\": {  \"bindings\": [ {  \"Lyric\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/WeKeepThisLoveInAPhotograph\" } } ] } }" ;
+	owlunit:testsOntology pm: .

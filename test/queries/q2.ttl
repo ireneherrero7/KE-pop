@@ -1,0 +1,6 @@
+PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> .
+
+SELECT ?lyric
+WHERE{
+    ?song pm:hasLyric ?lyric
+}
