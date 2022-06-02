@@ -1,2 +1,4 @@
  INFO 2022-06-02 18:08:56,351 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl
  INFO 2022-06-02 18:08:57,715 [main] (OWLUnit.java:102) - https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl doesn't define any test case.
+ INFO 2022-06-02 18:09:54,122 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl
+ INFO 2022-06-02 18:09:54,977 [main] (OWLUnit.java:102) - https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ1.ttl doesn't define any test case.
