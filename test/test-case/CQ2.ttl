@@ -5,7 +5,7 @@
 
 tc:CQ2.ttl a owlunit:CompetencyQuestionVerification ;
 	owlunit:hasCompetencyQuestion "Which are the lyrics of a Song" ;
-	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?lyric WHERE{ ?song pm:hasLyric ?lyric}" ;
+	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?Lyric WHERE{ ?song pm:hasLyric ?Lyric}" ;
 	owlunit:hasInputData td:TD2.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
 	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"Lyric\" ] } ,  \"results\": {  \"bindings\": [ {  \"Lyric\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/WeKeepThisLoveInAPhotograph\" } } ] } }" ;
