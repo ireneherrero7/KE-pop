@@ -19,3 +19,5 @@
  INFO 2022-06-02 18:44:49,142 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ2.ttl
  INFO 2022-06-02 19:00:10,899 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ4.ttl
 ERROR 2022-06-02 19:00:12,006 [main] (ErrorHandlerFactory.java:106) - [line: 9, col: 1 ] Broken token (newline): PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?Title WHERE{ ?song pm:hasOriginalTitle ?Title };
+ INFO 2022-06-02 19:01:06,346 [main] (OWLUnit.java:89) - Test case URI https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/CQ4.ttl
+ERROR 2022-06-02 19:01:07,206 [main] (ErrorHandlerFactory.java:106) - [line: 9, col: 1 ] Broken token (newline): PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT ?Title WHERE{ ?song pm:hasOriginalTitle ?Title };
