@@ -4,7 +4,7 @@
 @prefix tc: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/test-case/> .
 
 tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
-	owlunit:hasCompetencyQuestion "Who is the Artist of a Song?" ;
+	owlunit:hasCompetencyQuestion "Who is the artist of a Song?" ;
 	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT DISTINCT ?artist WHERE{ ?song pm:hasAuthor ?artist }" ;
 	owlunit:hasInputData td:TD1.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
