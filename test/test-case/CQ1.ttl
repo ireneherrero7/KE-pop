@@ -8,5 +8,5 @@ tc:CQ1.ttl a owlunit:CompetencyQuestionVerification ;
 	owlunit:hasSPARQLUnitTest "PREFIX pm: <https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/Ontology/popMusic.owl> SELECT DISTINCT ?artist WHERE{ ?song pm:hasAuthor ?artist }" ;
 	owlunit:hasInputData td:TD1.ttl ;
 	owlunit:hasInputTestDataCategory owlunit:ToyDataset ;
-	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"artist\" ] } ,  \"results\": {  \"bindings\": [ {  \"artist\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/jorar00/Pop-Music-KE22/main/test/competency-question/toy-dataset/Ed-Sheeran\" } } ] } }" ;
+	owlunit:hasExpectedResult "{  \"head\": {  \"vars\": [  \"artist\" ] } ,  \"results\": {  \"bindings\": [ {  \"artist\": {  \"type\":  \"uri\" ,  \"value\":  \"https://raw.githubusercontent.com/ireneherrero7/KE-pop/main/test/toy-dataset/Ed-Sheeran\" } } ] } }" ;
 	owlunit:testsOntology pm: .
